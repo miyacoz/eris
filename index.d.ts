@@ -53,8 +53,8 @@ declare namespace Eris {
   type PermissionType = "role" | "member";
 
   // Presence/Relationship
-  type ActivityType = BotActivityType | 4;
-  type BotActivityType = 0 | 1 | 2 | 3;
+  type ActivityType = BotActivityType;
+  type BotActivityType = 0 | 1 | 2 | 3 | 4;
   type FriendSuggestionReasons = { name: string; platform_type: string; type: number }[];
   type Status = "online" | "idle" | "dnd" | "offline";
 
